@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .todo-container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .todo-container h1 {
+    margin-top: 0;
+  }
+  
+  #task-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0 0;
+  }
+  
+  #task-list li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #task-list li:last-child {
+    border-bottom: none;
+  }
+  
+  #task-list li.completed {
+    text-decoration: line-through;
+    color: #ccc;
+  }
+  
+  #task-list li button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ccc;
+  }
+  
+  #task-list li button:hover {
+    color: #333;
+  }
